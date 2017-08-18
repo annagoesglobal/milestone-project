@@ -1,0 +1,153 @@
+<!doctype html>
+<html>
+<!-- head-add doc info here-->
+    <head>
+        <title>Anna Haefele | Designer</title>
+        <link rel="stylesheet" href="css/normalize.css"/>
+        <link rel="stylesheet" href="css/main.css"/>
+        <link href="https://fonts.googleapis.com/css?family=Raleway+Dots|Raleway:100,100i,200,200i,300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i|Sedgwick+Ave+Display&amp;subset=latin-ext" rel="stylesheet"/>
+    </head>
+    <body>
+<!-- header-navigation, title, etc.-->
+        <header id="home">
+          <div class="full-width">
+            <div class="half-width">
+              <h1>Anna <span>Haefele</span></h1>
+            </div>
+            <div class="half-width">
+              <nav>
+                <ul>
+                  <li><a href="#home">Home</a></li>
+                  <li><a href="#about">About</a></li>
+                  <li><a href="#work">Work</a></li>
+                  <li><a href="#contact">Contact</a></li>
+                </ul>
+              </nav>
+              <a href="#about">
+                <img src="img/down-arrow.png" alt='down-arrow' id='nav-arrow'/>
+              </a>
+            </div>
+          </div>
+        </header>
+<!-- main section contains several subsections that do not have separate menu items. Work portfolio is classified with a div ID, and divs for borders and art are not full, half, or third width.-->
+        <main>
+          <section id="about">
+            <div class='full-width'>
+            <div class="full-width">
+              <h2>I create designs as <span>adventurous</span> and <span>bold</span> as your <span>ideas</span>.</h2>
+            </div>
+            <div class='full-width' id='header-sub'>
+                <h3>Then I bring them to life.</h3>
+            </div>
+            <div class="full-width">
+              <div id='border-about-left'>
+              </div>
+              <div id='about-stars'>
+              </div>
+              <div id='border-about-right'>
+              </div>
+           </div>
+         </div>
+       </section>
+       <section id='work'>
+            <div class="full-width">
+              <div class="full-width">
+                <div class="half-width">
+                  <ul id='skills-left'>
+                    <li>Wireframing</li>
+                    <li>Brand &amp; Identity</li>
+                    <li>UX/UI Design</li>
+                  </ul>
+                </div>
+                <div class="half-width">
+                  <ul id='skills-right'>
+                    <li>Wordpress</li>
+                    <li>Write &amp; Launch</li>
+                    <li>HTML/CSS</li>
+                  </ul>
+                </div>
+              </div>
+  <!-- add portfolio images here-->
+              <div class="full-width">
+                <div class="third-width">
+                  <div id='portfolio-image-one'>
+                    <a href="https://www.behance.net/gallery/55828579/Positive-Steps-Design-Comp" target="_blank">
+                      <img src='img/positive-steps.png' alt='portfolio-image-one'/>
+                    </a>
+                  </div>
+                </div>
+                <div class="third-width">
+                  <div id='portfolio-image-two'>
+                    <a href="https://www.behance.net/gallery/55828709/Event-Flyer-for-University" target="_blank">
+                      <img src='img/flyer-concept.png' alt="portfolio-image-two"/>
+                    </a>
+                  </div>
+                </div>
+                <div class="third-width">
+                  <div id='portfolio-image-three'>
+                    <a href="https://www.behance.net/gallery/55830423/MNS-Graphics" target="_blank">
+                      <img src="img/mns-event-flyer.png" alt="portfolio-image-three">
+                    </a>
+                  </div>
+                </div>
+              </div>
+              <div class="full-width">
+                <div id='border-work-left'>
+                </div>
+                <div id='work-stars'>
+                </div>
+                <div id='border-work-right'>
+                </div>
+             </div>
+          </section>
+<!-- Begin Contact Info-->
+          <section id="contact">
+            <div class="full-width">
+              <div class="half-width">
+                <h4>Ready to get started?</h4>
+                <div class='half-width' class='address-info-container'>
+                  <div id='phone-icon' class="contact">
+                    <img src="img/phone-icon.png" alt="phone icon"/>
+                  </div>
+                  <div class="contact">
+                    <p>360.468.4699</p>
+                  </div>
+                </div>
+                <div class='half-width' class='address-info-container'>
+                  <div id='mail-icon' class="contact">
+                    <img src="img/mail-icon.png" alt="mail icon"/>
+                  </div>
+                  <div class="contact">
+                    <p>PO Box 22115<br>Santa Barbara, CA<br>93121</p>
+                  </div>
+                </div>
+              </div>
+              <div class="half-width">
+                <div class="container">
+                  <form id="contact" action="form-to-email.php" method="post">
+                    <fieldset>
+                      <input name="name" placeholder="Name" type="text" tabindex="1" required autofocus>
+                    </fieldset>
+                    <fieldset>
+                      <input name="email" placeholder="Email Address" type="email" tabindex="2" required>
+                    </fieldset>
+                    <fieldset>
+                      <textarea name="message" placeholder="Your message..." tabindex="5" required></textarea>
+                    </fieldset>
+                    <fieldset>
+                      <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Send</button>
+                    </fieldset>
+                  </form>
+                </div>
+              </div>
+            </div>
+          </section>
+          <section>
+            <footer>
+              <div class="full-width">
+              </div>
+            </footer>
+          </section>
+        </main>
+    </body>
+</html>
